@@ -1,0 +1,758 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Doto:wght@100..900&display=swap');
+*{
+    font-family: 'Arial', sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: rgb(27, 27, 27);
+}
+
+h1{
+    color: white;
+}
+
+h2{
+    color: white;
+}
+
+h3{
+    color: rgb(88, 88, 88);
+}
+h5{
+    color: white;
+}
+
+h6{
+    margin-left: 50px;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+button{
+    border-radius: 10px;
+    display: inline-block;
+    padding-bottom: 0.25px;
+    position: relative;
+    border: 1px;
+    color: white;
+    background-color: black;
+    padding: 15px;  
+}
+
+button:hover{
+    cursor: pointer; 
+    position: relative;
+    color: lightgray;
+
+}
+.introduction{
+    margin-top: 60px;
+}
+.header-box{
+    
+    
+    justify-content: space-around;
+    display: flex;
+    
+     
+}
+
+.proj-intro{
+    font-size: 400px;
+    margin-top: 150px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#git-button::before{
+    content:"";
+    position: absolute;
+    height: 2px;
+    width: 0;
+    left: 0;
+    bottom: 0;
+    background-color: red;
+    transition: width 0.25s ease-out;
+}
+
+#git-button:hover::before{
+    width:100%;
+}
+
+
+#stack-button::before{
+    content:"";
+    position: absolute;
+    height: 2px;
+    width: 0;
+    left: 0;
+    bottom: 0;
+    background-color: red;
+    transition: width 0.25s ease-out;
+}
+
+#stack-button:hover::before{
+    width:100%;
+}
+
+
+#medium-button::before{
+    content:"";
+    position: absolute;
+    height: 2px;
+    width: 0;
+    left: 0;
+    bottom: 0;
+    background-color: red;
+    transition: width 0.25s ease-out;
+}
+
+#medium-button:hover::before{
+    width:100%;
+}
+
+
+#insta-button::before{
+    content:"";
+    position: absolute;
+    height: 2px;
+    width: 0;
+    left: 0;
+    bottom: 0;
+    background-color: red;
+    transition: width 0.25s ease-out;
+}
+
+#insta-button:hover::before{
+    width:100%;
+}
+
+
+#band-button::before{
+    content:"";
+    position: absolute;
+    height: 2px;
+    width: 0;
+    left: 0;
+    bottom: 0;
+    background-color: red;
+    transition: width 0.25s ease-out;
+}
+
+#band-button:hover::before{
+    width:100%;
+}
+
+
+#sequence-button::before{
+    content:"";
+    position: absolute;
+    height: 2px;
+    width: 0;
+    left: 0;
+    bottom: 0;
+    background-color: red;
+    transition: width 0.25s ease-out;
+}
+
+#sequence-button:hover::before{
+    width:100%;
+}
+
+
+#hcb-button::before{
+    content:"";
+    position: absolute;
+    height: 2px;
+    width: 0;
+    left: 0;
+    bottom: 0;
+    background-color: red;
+    transition: width 0.25s ease-out;
+}
+
+#hcb-button:hover::before{
+    width:100%;
+}
+
+#ai-button::before{
+    content:"";
+    position: absolute;
+    height: 2px;
+    width: 0;
+    left: 0;
+    bottom: 0;
+    background-color: red;
+    transition: width 0.25s ease-out;
+}
+
+#ai-button:hover::before{
+    width:100%;
+}
+#you-button::before{
+    content:"";
+    position: absolute;
+    height: 2px;
+    width: 0;
+    left: 0;
+    bottom: 0;
+    background-color: red;
+    transition: width 0.25s ease-out;
+}
+
+#you-button:hover::before{
+    width:100%;
+}
+
+#home::before{
+    content:"";
+    position: absolute;
+    height: 2px;
+    width: 0;
+    left: 0;
+    bottom: 0;
+    background-color: red;
+    transition: width 0.25s ease-out;
+}
+
+#home:hover::before{
+    width:100%;
+}
+
+#projectfile::before{
+    content:"";
+    position: absolute;
+    height: 2px;
+    width: 0;
+    left: 0;
+    bottom: 0;
+    background-color: red;
+    transition: width 0.25s ease-out;
+}
+
+#projectfile:hover::before{
+    width:100%;
+}
+
+#articlesfile::before{
+    content:"";
+    position: absolute;
+    height: 2px;
+    width: 0;
+    left: 0;
+    bottom: 0;
+    background-color: red;
+    transition: width 0.25s ease-out;
+}
+
+#articlesfile:hover::before{
+    width:100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.introduction{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hiim{
+    animation: intro 7s ease-in;
+    color: white;
+    font-size: 175px;
+}
+
+@keyframes gradientAnimation {
+    0%{
+        background-position: 0% 50%;
+    }
+    100%{
+        background-position: 200% 50%;
+    }
+}
+
+
+@keyframes intro{
+    0%{
+        transform: scale(10)
+    }
+    50%{
+        transform: scale(1)
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+
+@-webkit-keyframes slide{
+    100% {left: 0;}
+}
+@keyframes slide{
+    100% { left: 0;}
+}
+
+.name{
+    font-size: 175px;
+    margin-left: 20px;
+    font-weight: 700;
+    background-image: linear-gradient(45deg, #8b0000, #ff0000, #dc143c, #570101);
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    animation: gradientAnimation 3s linear infinite, intro 7s ease-in;
+    animation-direction: alternate;
+    background-size: 300% 100%;
+    text-shadow: none;
+}
+
+
+.arrowdown{
+    margin-top: 260px;
+    position: absolute;
+    color: white;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    animation: pulse 2s infinite;
+    animation-direction: alternate;
+    transition: width 0.25s ease-in;
+    content:"";
+    position: absolute;
+    margin-left: 48%;
+    
+    
+
+}
+
+
+@keyframes pulse{
+    0%{
+        transform: scale(2)
+    }
+    50%{
+        transform: scale(7)
+    }
+    100%{
+        transform: scale(2);
+    }
+} 
+
+@keyframes smallpulse{
+    0%{
+        transform: scale(1)
+    }
+    50%{
+        transform: scale(1.1)
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+
+
+.startthisonemoretime{
+    margin-top: 500px;
+    justify-content: center;
+    display: flex;
+    margin-bottom: 25px;
+
+}
+
+
+
+.projects{
+    padding-top: 40px;
+    background-color: rgb(0, 0, 0);
+    border-color: white;
+    margin-top: 10px;
+    justify-content: space-evenly;
+    display: flex;
+    height: 425px;
+    border-radius: 20px;
+    outline-color: white;
+}
+
+.upperproj{
+    margin-top: 100px;
+    background-color: rgb(0, 0, 0);
+}
+.project-label{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+    color: white;
+}
+
+
+
+#myBtn{
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 99;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 15px;
+    font-size: 18px;
+    animation: smallpulse 2s ease-in infinite;
+}
+a{
+    color: white;
+}
+
+
+#projs{
+    height: 300px;
+    width: 300px;
+    background-color: rgb(20, 20, 20);
+    padding: 50px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 20px;
+}
+
+#projs:hover{
+    animation: smallpulse 3s infinite ease-in-out;
+}
+
+#sudoku{
+    font-size: 200px;
+    height: 50%;
+    margin-left: 10px;
+    
+    border-radius: 15px;
+}
+
+#AIPIC{
+    font-size: 200px;
+    height: 50%;
+    margin-left: 10px;
+    
+    border-radius: 15px;
+}
+#snakegame{
+    font-size: 200px;
+    height: 50%;
+    margin-left: 10px;
+    
+    border-radius: 15px;
+}
+.snake{
+    margin-left: 35px;
+}
+.sudok{
+    margin-left: 45px;
+}
+
+
+.projects2{
+    padding-top: 40px;
+    background-color: rgb(0, 0, 0);
+    border-color: white;
+    justify-content: space-evenly;
+    display: flex;
+    height: 450px;
+    border-radius: 20px;
+    outline-color: white;
+}
+
+#prog{
+    height: 200px;
+    padding: 40px;
+    width: 200px;
+}
+#prog:hover{
+    animation: smallpulse 3s infinite ease-in;
+}
+.programminglanguages{
+    margin-top: 600px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.Wannaseemore{
+    margin-top: 20px;
+    justify-content: left;
+    display: flex;
+    align-items: left;
+}
+
+#newgit-button{
+    padding: 5px;
+    align-items: center;
+    background-color: rgb(20, 20, 20);
+    font-size: 20px;
+    border-radius: 20px;
+    margin-left: 20px;
+    width: 50%;
+    height: 40px;
+
+}
+
+#newgit-button::before{
+    content:"";
+    position: absolute;
+    height: 2px;
+    width: 0;
+    left: 0;
+    bottom: 0;
+    background-color: red;
+    transition: width 0.25s ease-out;
+}
+
+#newgit-button:hover::before{
+    width:100%;
+}
+
+#wannaseemore{
+    margin-left: 100px;
+}
+
+
+nav{
+    margin-left: 100px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding: 20px;
+}
+
+.collatz{
+    width: 50px;
+}
+.butt-list{
+    width: 800px;
+    font-weight: 100px;
+    margin-top: 600px;
+    justify-content: center;
+    display: flex;
+    margin-left: 225px;
+    flex-direction: column;
+    padding: 50px;
+    background-color: rgb(37, 37, 37);
+    border-radius: 20px;
+
+}.articles-container{
+    justify-content: space-between;
+    display: flex;
+    border-radius: 15px;
+    background-color: rgb(46, 46, 46);
+    padding: 50px;
+}
+
+.collatz{
+    padding: 50px;
+    width: 40%;
+    background-color: rgb(0, 0, 0);
+    border-radius: 15px;
+    align-items: center;
+    justify-content: center;
+}
+.collatz:hover{
+    animation: smallpulse 3s ease-in;
+}
+
+.legos{
+    padding: 50px;
+    width: 40%;
+    background-color: rgb(0, 0, 0);
+    border-radius: 15px;align-items: center;
+    justify-content: center;
+}
+
+.legos:hover{
+    animation: smallpulse 3s ease-in infinite;
+}
+
+.photo-gallery{
+    margin-top: 20px;
+    border-radius: 15px;
+    height: 30vw;
+    justify-content: space-evenly;
+    display: flex;
+    align-items: center;
+    background-color: gray;
+}
+
+
+.photo1:hover{
+    animation: smallpulse 3s ease-in infinite;
+}
+
+.photo1{
+    border-radius: 15px;
+
+    padding: 20px;
+    background-color: black;
+}
+.photo2:hover{
+    animation: smallpulse 3s ease-in infinite;
+}
+
+.photo2{
+    border-radius: 15px;
+    padding: 20px;
+    background-color: black;
+}
+
+
+.photo3{
+    border-radius: 15px;
+    padding: 20px;
+    background-color: black;
+}
+
+.photo4{
+    border-radius: 15px;
+    padding: 20px;
+    background-color: black;
+}
+
+#grandcentral{
+    height: 50px;
+    width: 50px;
+}
+
+#whatamiupto{
+    padding: 16px;
+    justify-content: space-evenly;
+    display: flex;
+    height: 400px;
+    background-color: gray;
+    
+
+}
+
+#thiswebsite{
+    align-items: center;
+    display: block;
+    justify-content: center;
+    
+    border-radius: 15px;
+    width: 30%;
+    padding: 15px;
+    background-color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.ending{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 500px;
+    background-color: rgb(12, 12, 12);
+    height: 400px;
+}
+
+::-webkit-scrollbar {
+    background: rgb(31, 36, 43);
+    padding: 10px 8px 11px;
+}
+::-webkit-scrollbar-thumb {
+    cursor: pointer;
+    background: rgb(231, 9, 1);
+    padding: 10px 8px 11px;
+    border-radius: 3px;
+}
+::-webkit-scrollbar-hover {
+    background: rgb(116, 1, 1);
+    padding: 10px 8px 11px;
+}
+
+         
