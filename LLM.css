@@ -1,0 +1,261 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+*{
+    font-family: 'Arial', sans-serif;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(to right, rgb(16, 16, 17), rgb(7, 7, 7));
+/*rgb(230, 20, 136)*/
+}
+.header{
+    color: #ccc;
+    
+    height: 45px;
+}
+.header h1{
+    color: white;
+    font-size: 22px;
+    font-weight: 800;
+}
+.container{
+    max-width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+
+
+
+
+.info{
+    font-size: 100px;
+    color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 20;
+}
+.info a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+.info a:hover{
+    color: #1f263f;
+}
+
+
+
+
+
+.input-container{
+    background-image: linear-gradient( #ff0000, rgb(250, 76, 76));
+    border-radius: 15px;
+    padding: 13px;
+    display: flex;
+    justify-content: space-between;
+    border-top: 0px solid #131614;
+    position: sticky;
+    bottom: 0;
+}
+   
+
+
+
+
+#user-input{
+    background-color: #1a1a1a;
+    color: #ffffff;
+    border: none;
+    outline: none;
+    padding: 8px;
+    flex: 9;
+    font-size: 14px;
+    font-weight: 400;
+    border-radius: 5px;
+}
+
+#user-input::placeholder{
+    color: #8e8e8e;
+    font-weight: 400;
+}
+
+
+
+
+
+
+#send-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #000000;
+    color: #fff;
+    cursor: pointer;
+    margin-left: 5px;
+    transition: all 0.3s ease;
+}
+
+#send-button:hover{
+    background-color: #3a3a3a;
+}
+
+
+
+@keyframes pulse{
+    0%{
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+    }
+
+}
+
+
+.voice-button{
+    color: rgb(255, 255, 255);
+    background-color: #000000;
+    cursor: pointer;
+    border-radius: 50%;
+    padding:10px 11px;
+    margin-left: 5px;
+    border: none;
+}
+.voice-button:hover{
+    color: white;
+    background-color:#3d3d3d ;
+}
+.voice-button.listening{
+    background-color: #46e66e;
+    animation: pulse 1.5s infinite;
+}
+
+
+
+
+
+
+.mute-button{
+    color: white;
+    background-color: #000000;
+    cursor: pointer;
+    border-radius: 50%;
+    padding:10px 11px;
+    margin-left: 5px;
+    border: none;
+}
+.mute-button:hover{
+    color: white;
+    background-color: #383838;
+}
+.mute-button.muted{
+    background-color: #182036;
+}
+
+
+
+
+
+.chat-container{
+    flex: 1;
+}
+
+.chat-box{
+    display: flex;
+    align-items: center;
+    padding: 10px 15px;
+}
+
+#chat-log{
+    margin-bottom: 10px;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+#chat-log i{
+    margin-right: 10px;
+    color: #ffffff;
+    border-radius: 5px;
+}
+
+.bot, .user{
+    display: flex;
+    align-items: flex-start;
+    color: #ffffff;
+    width: 100%;
+    padding: 15px 7px 15px 10px;
+    border-radius: 6px;
+}
+
+.bot{
+    background-color: #302550;
+}
+
+.user{
+    background-color: #e64040 ;
+    color: rgb(255, 255, 255);
+}
+
+#chat-log #user-icon i{
+    background-color: #ff0101;
+    padding: 10px 11px;
+}
+
+#chat-log #bot-icon i{
+    background-color: #6200ff;
+    padding: 10px 8px 11px;
+}
+
+
+
+::-webkit-scrollbar {
+    background: rgb(31, 36, 43);
+    padding: 10px 8px 11px;
+}
+::-webkit-scrollbar-thumb {
+    cursor: pointer;
+    background: rgb(231, 9, 1);
+    padding: 10px 8px 11px;
+    border-radius: 3px;
+}
+::-webkit-scrollbar-hover {
+    background: rgb(116, 1, 1);
+    padding: 10px 8px 11px;
+}
+
+
+
+
+.nameai{
+    font-size: 80px;
+    margin-left: 20px;
+    font-weight: 700;
+    background-image: linear-gradient(45deg, #8b0000, #ff0000, #dc143c, #570101);
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    animation: gradientAnimation 3s linear infinite, intro 7s ease-in;
+    animation-direction: alternate;
+    background-size: 300% 100%;
+    text-shadow: none;
+}
+
+
+.hiaiim{
+    animation: intro 7s ease-in;
+    color: white;
+    font-size: 80px;
+}
